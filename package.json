@@ -1,7 +1,7 @@
 {
   "name": "zhlgd-cli",
   "bin": {
-    "zhlgd-cli": "./index.js"
+    "zhlgd-cli": "./bin/index.js"
   },
   "version": "1.0.0",
   "description": "武汉理工大学智慧理工大命令行工具",
