@@ -1,0 +1,20 @@
+{
+  "name": "zhlgd-cli",
+  "version": "1.0.0",
+  "description": "武汉理工大学智慧理工大命令行工具",
+  "homepage": "https://github.com/kmoonn/zhlgd-cli#readme",
+  "bugs": {
+    "url": "https://github.com/kmoonn/zhlgd-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmoonn/zhlgd-cli.git"
+  },
+  "license": "MIT",
+  "author": "Kmoon",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
