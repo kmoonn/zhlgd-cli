@@ -1,5 +1,8 @@
 {
   "name": "zhlgd-cli",
+  "bin": {
+    "zhlgd-cli": "./index.js"
+  },
   "version": "1.0.0",
   "description": "武汉理工大学智慧理工大命令行工具",
   "homepage": "https://github.com/kmoonn/zhlgd-cli#readme",
