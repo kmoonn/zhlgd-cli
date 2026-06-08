@@ -1,7 +1,7 @@
 {
   "name": "zhlgd-cli",
   "bin": {
-    "zhlgd-cli": "./bin/index.js"
+    "zhlgd": "./bin/index.js"
   },
   "version": "1.0.0",
   "description": "武汉理工大学智慧理工大命令行工具",
@@ -19,5 +19,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.17.0",
+    "commander": "^15.0.0"
   }
 }
