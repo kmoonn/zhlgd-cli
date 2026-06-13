@@ -5,18 +5,18 @@
 ## 安装
 
 ```bash
-npm install -g zhlgd
+npm install -g zhlgd-cli
 ```
 
 ## 命令
 
-| 命令 | 说明 |
-|------|------|
-| `zhlgd login` | 校园网登录（`-u` 学号 `-p` 密码，省略则交互输入） |
-| `zhlgd msg` | 查看我的消息 |
-| `zhlgd news` | 查看校园新闻 |
-| `zhlgd whoami` | 查看登录状态 |
-| `zhlgd logout` | 退出登录 |
+| 命令             | 说明                      |
+|----------------|-------------------------|
+| `zhlgd login`  | 校园网登录（`-u` 学工号 `-p` 密码） |
+| `zhlgd msg`    | 查看我的消息                  |
+| `zhlgd news`   | 查看校园新闻                  |
+| `zhlgd whoami` | 查看登录状态                  |
+| `zhlgd logout` | 退出登录                    |
 
 登录后 Cookie 自动保存至 `~/.zhlgd/cookies.json`，其他命令自动鉴权。
 
